@@ -1,6 +1,6 @@
 ---
 title: java开发笔记 
-tags: 新建,模板,小书匠
+tags: java,spring,小书匠
 grammar_cjkRuby: true
 ---
 
@@ -12,3 +12,4 @@ grammar_cjkRuby: true
   今天使用了mybatis-generator，对读写分离的代码看了一下
   
  ### 2017年08月31日
+ 
