@@ -4,12 +4,28 @@ tags: java,spring,小书匠
 grammar_cjkRuby: true
 ---
 
-### 2017年08月30日
+## 2017年08月30日
 
 > mybatis-generator 是一个插件，需要配置genenrator.xml和generator.properties文件
 
 
   今天使用了mybatis-generator，对读写分离的代码看了一下
   
- ### 2017年08月31日
+ ## 2017年08月31日
+ ### 1. 可变与不可变对象
+ >  当一个对象创建后的状态，它的字段，内含的对象等不可以改变时，这个对象就是不可变的
+
+ - 不使用setter方法
+ - 定义所有的字段为final和private的
+ - 子类不能复写自己的方法，或者直接声明类是final的
+ - 实例字段中包含引用对象，不要使这些对象改变（1）不要提供更改可变对象的方法（2）不要共享对可变对象的引用，不要存储传给构造器的外部可变对象的引用；如果有必要，复制一个对象，并存储其副本的引用。同样的，有必要时类中的方法返回内部可变对象的副本而不是原对象。
+
+## 2017年09月01日
+deepin 系统出现busybox bulid-in ,解决如下
+![enter description here][1]
+ ==重点是fsk -s、dev/..(这个要看recovery mode里面的信息)==
+
  
+
+
+  [1]: ./images/1504236650538.jpg
