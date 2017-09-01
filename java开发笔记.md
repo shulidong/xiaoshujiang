@@ -21,9 +21,9 @@ grammar_cjkRuby: true
  - 实例字段中包含引用对象，不要使这些对象改变（1）不要提供更改可变对象的方法（2）不要共享对可变对象的引用，不要存储传给构造器的外部可变对象的引用；如果有必要，复制一个对象，并存储其副本的引用。同样的，有必要时类中的方法返回内部可变对象的副本而不是原对象。
 
 ## 2017年09月01日
-deepin 系统出现busybox bulid-in ,解决如下
+- deepin 系统出现busybox bulid-in ,解决如下
 ![enter description here][1]
- ==重点是fsk -s、dev/..(这个要看recovery mode里面的信息)==
+> 重点是fsk -s、dev/..(这个要看recovery mode里面的信息)
 
  
 
